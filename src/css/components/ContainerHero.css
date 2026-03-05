@@ -1,0 +1,126 @@
+.container__hero {
+    width: 100%;
+    max-width: 1308.78px;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.description__hero {
+    width: 100%;
+    max-width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.description__hero h1 {
+    color: var(--text__White);
+    font-size: 65px;
+    font-weight: 700;
+    text-align: start;
+    margin: 0px 0px 9px;
+}
+
+.description__hero span {
+    color: var(--text__Green);
+}
+
+.description__hero p {
+    color: var(--text__White);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: start;
+    margin: 0px 0px 30px;
+}
+
+.buttons__hero {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: 0px 0px 35px;
+}
+
+.buttons__hero a {
+    color: var(--text__Black);
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px 30px;
+    display: inline-block;
+    border: none;
+    border-radius: var(--border__Radius);
+    transition: all .3s ease;
+    box-shadow: 0 0 2px #04F631,
+                0 0 5px #04F631,
+                0 0 15px #04F631;
+    background: #04F631;
+}
+
+.buttons__hero a:hover{
+  transform: translateY(-3px);
+}
+
+.container__members__hero {
+    gap: 15px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.members__hero {
+    width: auto;
+    height: auto;
+    display: flex;
+}
+
+.members__hero img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    border: none;
+    border-radius: 50%;
+}
+
+.description__members {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.description__members font {
+    color: var(--text__White);
+    font-size: 17px;
+    font-weight: 600;
+    text-align: start;
+    margin: 0px 0px 2px;
+}
+
+.description__members span {
+    color: var(--text__White);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: start;
+}
+
+.img__hero {
+    width: 100%;
+    max-width: 50%;
+    height: 100%;
+}
+
+.img__hero figure {
+    width: 100%;
+    height: 100%;
+}
+
+.img__hero figure img {
+    width: 100%;
+    height: auto;
+}

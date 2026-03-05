@@ -7,6 +7,7 @@ function App() {
 
   return (
     <div className="app">
+      <div className="circle"></div>
       <Header />
       <main className="app__main">
         <Routes>
