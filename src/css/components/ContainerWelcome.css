@@ -1,0 +1,110 @@
+.container__welcome {
+    gap: 30px;
+    width: 100%;
+    max-width: 1308.78px;
+    height: 443.73px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.container__hero__welcome {
+    width: 100%;
+    max-width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative
+}
+
+.container__hero__welcome img {
+    width: 298.41px;
+    height: 100%;
+    border: none;
+    border-radius: var(--border__Radius);
+}
+
+.experience__welcome {
+    width: 210px;
+    height: 158px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 24px;
+    background-color: var(--background__Green);
+    border: none;
+    border-radius: var(--border__Radius);
+    position: absolute;
+    left: 35%;
+}
+
+.experience__welcome h1 {
+    color: var(--text__Black);
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.experience__welcome p {
+    color: var(--text__Black);
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.descripion__welcome {
+    width: 100%;
+    max-width: 50%;
+    height: 100%;
+}
+
+.descripion__welcome font {
+    color: var(--text__Green);
+    font-size: 17px;
+    font-weight: 600;
+    text-align: start;
+    padding: 0px 0px 20px;
+}
+
+.descripion__welcome h2 {
+    color: var(--text__White);
+    font-size: 48px;
+    font-weight: 700;
+    text-align: start;
+    line-height: 1.2;
+    margin: 15px 0px 15px;
+}
+
+.descripion__welcome p {
+    color: var(--text__White);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: start;
+    max-width: 590px;
+    margin: 0px 0px 30px;
+    line-height: 1.7;
+}
+
+.descripion__welcome a {
+    color: var(--text__Black);
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px 30px;
+    display: inline-block;
+    text-transform: uppercase;
+    border: none;
+    border-radius: var(--border__Radius);
+    transition: all .3s ease;
+    box-shadow: 0 0 2px #04F631,
+                0 0 5px #04F631,
+                0 0 15px #04F631;
+    background: #04F631;
+}
+
+.descripion__welcome a:hover{
+  transform: translateY(-3px);
+}

@@ -3,9 +3,12 @@
     max-width: 1308.78px;
     height: auto;
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
     flex-wrap: wrap;
     position: relative;
+    margin-bottom: 40px;
 }
 
 .description__hero {
@@ -30,7 +33,7 @@
 
 .description__hero p {
     color: var(--text__White);
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 400;
     text-align: start;
     margin: 0px 0px 30px;
@@ -46,11 +49,12 @@
 .buttons__hero a {
     color: var(--text__Black);
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 700;
     text-align: center;
     text-decoration: none;
     padding: 12px 30px;
     display: inline-block;
+    text-transform: uppercase;
     border: none;
     border-radius: var(--border__Radius);
     transition: all .3s ease;
