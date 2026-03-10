@@ -1,5 +1,7 @@
 import '../css/pages/Home.css';
+import CountUp from '../components/CountUp';
 import ContainerHero from '../components/ContainerHero';
+import ContainerChoose from '../components/ContainerChoose';
 import ContainerCarrusel from '../components/ContainerCarrusel';
 import ContainerWelcome from '../components/ContainerWelcome';
 
@@ -9,6 +11,8 @@ const Home = () => {
             <ContainerHero />
             <ContainerCarrusel />
             <ContainerWelcome />
+            <CountUp />
+            <ContainerChoose />
         </div>
     );
 }

@@ -20,6 +20,10 @@
     margin: 0 1;
     cursor: auto;
     text-transform: uppercase;
+    user-select: none;
+    -webkit-user-select: none; 
+    -moz-user-select: none;    
+    -ms-user-select: none; 
 }
 
 .carousel__track {
