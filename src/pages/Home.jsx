@@ -1,5 +1,6 @@
 import '../css/pages/Home.css';
 import CountUp from '../components/CountUp';
+import ContainerPlan from '../components/ContainerPlan';
 import ContainerHero from '../components/ContainerHero';
 import ContainerChoose from '../components/ContainerChoose';
 import ContainerCarrusel from '../components/ContainerCarrusel';
@@ -13,6 +14,7 @@ const Home = () => {
             <ContainerWelcome />
             <CountUp />
             <ContainerChoose />
+            <ContainerPlan />
         </div>
     );
 }

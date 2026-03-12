@@ -37,7 +37,7 @@ const ContainerChoose = () => {
                                     <font>2</font>
                                 </div>
                                 <div className="description__benefits">
-                                    <h3>Entrenadores personales certificados</h3>
+                                    <h3>Equipo moderno</h3>
                                     <font>
                                         Experimente máquinas de última generación y herramientas de entrenamiento funcional que hacen que cada entrenamiento sea efectivo, divertido y desafiante.
                                     </font>
@@ -48,7 +48,7 @@ const ContainerChoose = () => {
                                     <font>3</font>
                                 </div>
                                 <div className="description__benefits">
-                                    <h3>Entrenadores personales certificados</h3>
+                                    <h3>Entorno motivador</h3>
                                     <font>
                                         Únase a una comunidad de apoyo que lo inspira a mantenerse constante, superar sus límites y celebrar cada logro en el camino.
                                     </font>
